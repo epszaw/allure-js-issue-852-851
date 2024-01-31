@@ -1,5 +1,5 @@
-const { CucumberJSAllureFormatter } = require("allure-cucumberjs");
-const { AllureRuntime } = require("allure-cucumberjs");
+const { CucumberJSAllureFormatter, AllureRuntime } = require("allure-cucumberjs");
+// const { AllureRuntime } = require("allure-cucumberjs");
 
 function Reporter(options) {
   return new CucumberJSAllureFormatter(
